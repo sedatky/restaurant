@@ -1,0 +1,7 @@
+<ul>
+
+    {% for item in all_menu_type %}
+    <li><a href="/menu/{{ item.id}}/">{{ item.menu_type }}</a></li>
+    {% endfor %}
+
+</ul>
